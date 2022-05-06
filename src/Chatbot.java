@@ -25,7 +25,7 @@ public class Chatbot{
     public static void guessAge(){
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Let me guess you age.");
+        System.out.println("Let me guess your age.");
         System.out.println("Enter any number from 1 -10");
 
         int num = Integer.valueOf(scan.nextLine());
@@ -86,7 +86,7 @@ public class Chatbot{
                  }
                  else System.out.println("Please, try again.");
              }
-             System.out.println("Congratualtions, that is correct.");
+             System.out.println("Congratulations, that is correct.");
         }
     
     }
